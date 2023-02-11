@@ -1,0 +1,119 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (min-width: 489px) and (max-width: 594px) {
+	/* START -> specs heading */
+	.specs-header img{
+		width: 150px;
+		height: 50px;
+		padding-bottom: 30px;
+	}
+	.specs-main{
+		gap: 0;
+	}
+	.specs-info-img img{
+		transform: scale(0.9);
+	}
+	.specs-info{
+		color: #ffffff;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		margin-right: -10px;
+	}
+	.specs-info-group{
+		display: flex;
+		flex-direction: column;
+		align-items: start ;
+	}
+	.specs-info-group img{
+		height: 15px;
+		width: 15px;
+		border: 1px solid ;
+	}
+	.specs-info-p1{
+		font-size: 14px;
+		line-height: 35px;
+	}.specs-info-p2{
+		font-size: 10px;
+	}	
+	.specs-info-p2{
+		text-align-last: start;
+	}
+}
+
+@media screen and (min-width: 304px) and (max-width: 489px){
+	.specs-page{
+		padding-top: 30px ;
+	}
+	
+	.specs-main{
+		display: flex;
+		gap: 0px;
+		flex-direction: column-reverse;
+	}
+	.specs-info-img img{
+		width: 240px ;
+		height: 294px ;
+	}
+	.specs-info{
+		color: #ffffff;
+		display: grid ;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+		justify-content: space-evenly;
+	}
+	.specs-info-2 , .specs-info-3 {
+		margin-left: 0px;
+	}
+	.specs-info-p2{
+		text-align-last: start;
+	}
+	
+}
+
+@media screen and (min-width:0px) and (max-width: 304px){
+	.specs-info-img img{
+		width: 220px ;
+		height: 274px ;
+	}
+	.specs-main{
+		display: flex;
+		gap: 0px;
+		flex-direction: column-reverse;
+	}
+	.specs-info-img img{
+		width: 240px ;
+		height: 294px ;
+	}
+	.specs-info{
+		color: #ffffff;
+		display: grid ;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+		justify-content:space-around;
+	
+	}
+	.specs-info-group{
+		justify-content: center;
+		align-items: center;
+	}
+	.specs-info-2 , .specs-info-3 {
+		margin-left: 0px;
+	}
+	.specs-info-p2{
+		text-align-last: start;
+	}
+	.specs-info-group img{
+		height: 15px;
+		width: 15px;
+	}
+	.specs-info-p1{
+		font-size: 12px;
+		line-height: 35px;
+	}.specs-info-p2{
+		font-size: 8px;
+	}	
+}
