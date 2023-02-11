@@ -1,0 +1,162 @@
+*{
+	padding: 0 ;
+	margin: 0;
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+	body{
+		padding: 0px 20px;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+	body{
+		padding: 0px 20px;
+	}
+
+	.main-section-index{
+		gap: 50px;
+	}
+
+	.left-main img{
+		width: 150px;
+		height: 400px;
+	}
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+	body{
+		padding: 0px 20px;
+	}
+	.beats-logo{
+		margin-left: 10px;
+		width: 30px;
+		height: 30px;
+	}
+	nav{
+		position: relative;
+	}
+	.right-nav{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.link{
+		padding: 0px 15px;;
+		font-weight: 400;
+		margin-top: 40px;
+	}
+
+	.shop-btn{
+		padding: 8px 32px;
+		position: absolute;
+		top: 30px;
+		right: 10px;
+	}
+	.main-section-index{
+		flex-direction: column;
+		gap: 10px;
+	}
+	.left-main img{
+		filter: none;
+		height: 400px;	
+	}
+	.right-main-1{
+		align-self: flex-start;
+	}
+	.right-main-2 h2{
+		width: 200px;
+	}
+	.right-main-2 p{
+		letter-spacing: 1px;
+		font-weight: 300;
+	}
+	.add-to-bag-btn{
+		width: max-content;
+	}
+	.footer-main{
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+		row-gap: 20px;
+	}
+}
+
+
+@media screen and (max-width: 426px){
+	body{
+		padding: 0px 0px;
+		margin-right: 0px;
+		width: 100vw;
+	}
+	.beats-logo{
+		margin-left: 10px;
+		width: 30px;
+		height: 30px;
+	}
+	.home-page{
+		margin-right: 0px;
+		width: 100vw;
+	}
+	nav{
+		margin-right: 0px;
+		width: 100vw;
+	}
+	.right-nav{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.link{
+		padding: 0px 15px;;
+		font-weight: 400;
+		margin-top: 40px;
+		font-size: 13px;
+	}
+	.shop-btn{
+		padding: 8px 32px;
+		position: absolute;
+		top: 30px;
+		right: 10px;
+	}
+	.main-section-index{
+		flex-direction: column;
+		gap: 10px;
+		padding: 0px 10px;
+	}
+	.left-main img{
+		filter: none;
+		height: 400px;	
+		position: relative;
+		left: -30px;
+		z-index: -1;
+	}
+	.right-main-1{
+		margin: 0px auto;
+	}
+	.right-main-1 img{
+		width: 250px;
+		height: auto;
+		padding: 0px auto;
+		justify-self: center;
+	}
+	.right-main-1{
+		align-self: flex-start;
+	}
+	.right-main-2 h2{
+		width: 200px;
+	}
+	.right-main-2 p{
+		letter-spacing: 1px;
+		font-weight: 300;
+	}
+	.add-to-bag-btn{
+		width: max-content;
+	}
+	.footer-main{
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+		row-gap: 20px;
+	}
+	.footer-main img{
+		transform: scale(0.9);
+	}
+}
