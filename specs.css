@@ -1,0 +1,66 @@
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins' , sans-serif;
+}
+
+.specs-page{
+	padding-top: 30px;
+	text-align: center;
+}
+/* START -> specs heading */
+.specs-header img{
+	width: 168px;
+	height: 56px;
+	padding-bottom: 30px;
+}
+.specs-main{
+	display: flex;
+	/* border: 1px solid green; */
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+.specs-info-img img{
+	width: 240px ;
+	height: 294px ;
+}
+.specs-info{
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.specs-info-group{
+	display: flex;
+	flex-direction: column;
+	/* border: 2px solid yellow; */
+	align-items: start ;
+}
+.specs-info-group img{
+	height: 20px;
+	width: 20px;
+}
+.specs-info-p1{
+	font-size: 16ps;
+	line-height: 40px;
+}.specs-info-p2{
+	font-size: 12px;
+}
+.specs-info-2 , .specs-info-3 {
+	margin-left: -50px;
+}
+.specs-info-p2{
+	text-align-last: start;
+}
+
+.specs-info-img:hover{
+	filter: drop-shadow(2px 2px 5px #ff00d9);
+	cursor: pointer;
+}
+
