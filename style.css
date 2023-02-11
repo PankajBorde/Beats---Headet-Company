@@ -161,7 +161,7 @@ a:hover {
 	display: grid;
 	width: 100%;
 	grid-template-columns: auto auto auto auto;
-	justify-items : center;
+	justify-content: center;
 	align-items: center;
 	
 }
