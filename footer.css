@@ -1,0 +1,75 @@
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins' , sans-serif;
+	list-style: none;
+	color: #ffffff;
+}
+footer{
+	margin: 20px 0px 40px 0px;
+	display: flex;
+	justify-content: center;
+	gap: 5%;
+}
+footer h4{
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+footer li{
+	font-size: 0.8em;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+.foo-connect{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.foo-connect > form {
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	background-color: #181A1B;
+	border-radius: 10px;
+}
+.foo-connect > form > input{
+	height: fit-content;
+	border: none;
+	background-color: transparent;
+}
+.foo-connect > form > button {
+	display: flex;
+	background-color: #0a0A0B;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	gap: 20px;
+	cursor: pointer;
+}
+.foo-social-links img{
+	margin-right: 20px;
+	cursor: pointer;
+}
+.foo-logo > img:hover{
+	transform: scale(1.2);
+	background-color: #ff00d9;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.foo-connect > form > input:focus{
+	outline: none;
+}
+
+
+
+
+
+
+
