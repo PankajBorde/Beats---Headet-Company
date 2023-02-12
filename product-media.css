@@ -1,0 +1,11 @@
+@media screen and (min-width: 20px) and (max-width: 461px) {
+	.products-page > img{
+		width: 180px;
+	}
+	.pro-container{
+		grid-template-columns: auto;
+	}
+	#last{
+		left: 0%;
+	}
+}
