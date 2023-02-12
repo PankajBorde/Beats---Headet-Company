@@ -1,0 +1,59 @@
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins' , sans-serif;
+}
+
+.case-page{
+	padding-top: 30px;
+	text-align: center;
+}
+/* START -> case heading */
+.case-header img{
+	width: 146px;
+	height: 41px;
+	padding-bottom: 30px;
+}
+
+/* START -> case main */
+.case-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+}
+.case-main > img{
+	width: 240px ;
+	height: 335px ;
+}
+.case-info{
+	height: 100%;
+}
+.case-info > p{
+	width: 138.5px;
+	color: #ffffff;
+	font-size: 12px ;
+	text-align: start;
+}
+
+.case-btn{
+	display: flex;
+	padding: 10px 20px;
+	background-color: #1E1E21;
+	gap:15px ;
+	border: none;
+	align-items: center;
+	color: #ffffff;
+	border-radius: 20px;
+	margin-top: 1em ;
+}
+
+.case-main img:hover{
+	filter: drop-shadow(2px 2px 5px #ff00d9);
+	cursor: pointer;
+}
