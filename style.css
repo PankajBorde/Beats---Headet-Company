@@ -11,18 +11,14 @@ body{
 	background-color: #0F0F10;
 	padding: 0px 150px;
 }
-.home-page{
 
-}
 
 /* START -> header section of home-page */
 nav{
 	/* border: 2px solid red; */
 	padding: 30px 0px;
 }
-.left-nav{
-	/* border: 2px solid green; */
-}
+
 .beats-logo{
 	/* border: 2px solid violet; */
 	width: 50px;
@@ -105,8 +101,6 @@ a:hover {
 	width: 320px;
 	height: 70px;
 }
-.right-main-2{	
-}
 .right-main-2 h2{
 	color: #ffffff;
 	font-size: 46px;
@@ -171,4 +165,10 @@ a:hover {
 	width: fit-content;
 }
 
+/* Back to top button */
+/* this button present between the product-page and footer-page */
+.back-to-top{
+	display: flex;
+	justify-content: end;
+}
 
