@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@media screen and (min-width: 696px) and (max-width: 827px){
+	.banner-bg{
+		gap: 0px;
+	}
+	.banner-bg > img{
+		transform: scale(0.9);
+	}
+	.banner-info{
+		transform: scale(0.9);
+	}
+}
+
+@media screen and (min-width: 532px) and (max-width: 696px){
+	.banner-bg{
+		flex-direction: column;
+	}
+	.banner-info > h3{
+		text-align-last: center;
+		align-self: center;
+	}
+	.banner-info > p{
+		align-self: center;
+	}
+	.banner-info > button{
+		align-self: center;
+	}
+}
+
+
+@media screen and (min-width: 468px) and (max-width: 533px){
+	.banner-bg{
+		flex-direction: column;
+		gap: 0px;
+	}
+	.banner-info > h3{
+		text-align-last: center;
+		align-self: center;
+	}
+	.banner-info > p{
+		align-self: center;
+	}
+	.banner-info > button{
+		align-self: center;
+	}
+	.banner-bg > img{
+		transform: scale(0.9);
+	}
+	.banner-info{
+		transform: scale(0.9);
+	}
+}
+@media screen and (min-width: 325px) and (max-width: 469px){
+	.banner-bg{
+		flex-direction: column;
+		gap: 0px;
+		height:280px;
+	}
+	.banner-info > h3{
+		text-align-last: center;
+		align-self: center;
+	}
+	.banner-info > p{
+		align-self: center;
+	}
+	.banner-info > button{
+		align-self: center;
+	}
+	.banner-bg > img{
+		transform: scale(0.7);
+		margin-bottom: 0px ;
+	}
+	.banner-info{
+		transform: scale(0.7);
+		margin-top: -2em ;
+	}
+}
+@media screen and (min-width: 20px) and (max-width: 324px){
+	.banner-bg{
+		flex-direction: column;
+		gap: 0px;
+		height:250px;
+	}
+	.banner-info > h3{
+		text-align-last: center;
+		align-self: center;
+	}
+	.banner-info > p{
+		align-self: center;
+	}
+	.banner-info > button{
+		align-self: center;
+	}
+	.banner-bg > img{
+		transform: scale(0.5);
+		margin-bottom: 0px ;
+	}
+	.banner-info{
+		transform: scale(0.7);
+		margin-top: -2em ;
+	}
+}

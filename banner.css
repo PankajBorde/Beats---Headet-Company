@@ -1,0 +1,57 @@
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins' , sans-serif;
+}
+.banner-page{
+	padding: 40px 0px;
+}
+.banner-bg{
+	width: 70%;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	background-color: #1E1E21;
+	padding: 40px 10px;
+	border-radius: 10px;
+}
+
+.banner-info{
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+.banner-info > h3{
+	font-size: 18px;
+	color: #ffffff;
+}
+.banner-info > p{
+	color: #BDC0C2;
+	font-size: 14px;
+
+}
+.banner-info > button{
+	background-color: #000000;
+	color: #ffffff;
+	display: flex;
+	gap: 1em;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	width: fit-content;
+	cursor: pointer;
+}
+.banner-bg > img:hover{
+	filter: drop-shadow(2px 2px 5px #ff00d9);
+	cursor: pointer;
+}
+
